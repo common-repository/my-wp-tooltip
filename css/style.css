@@ -1,0 +1,101 @@
+
+/*-----------------------------------------------------------------------------------*/
+/*	GENERAL
+/*-----------------------------------------------------------------------------------*/
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: #FFF;
+    color: #888;
+    font-size: 14px;
+}
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+body,
+li,
+address {
+    line-height: 25px
+}
+input,
+button,
+select,
+textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+a {
+    color: #fa6c65;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+}
+a:hover,
+a:focus {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #616161;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+h1 {
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+h5 {
+    font-size: 14px
+}
+h6 {
+    font-size: 12px
+}
+/*-----------------------------------------------------------------------------------*/
+/*	TOOLTIP
+/*-----------------------------------------------------------------------------------*/
+.tooltip-inner {
+    color: #fff;
+    background-color: #fa6c65;
+    padding: 5px 12px;
+}
+.tooltip.top .tooltip-arrow,
+.tooltip.top-left .tooltip-arrow,
+.tooltip.top-right .tooltip-arrow {
+    border-top-color: #fa6c65
+}
+.tooltip.right .tooltip-arrow {
+    border-right-color: #fa6c65
+}
+.tooltip.left .tooltip-arrow {
+    border-left-color: #fa6c65
+}
+.tooltip.bottom .tooltip-arrow,
+.tooltip.bottom-left .tooltip-arrow,
+.tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: #fa6c65
+}
